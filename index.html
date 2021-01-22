@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html style="direction: rtl;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>persian-gateway-validator</title>
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css?h=3d3259a3467f9397edbac4ccf9765875">
+    <link rel="stylesheet" href="/assets/css/styles.min.css?h=998d429cbde47feef3c8a94daa97f6d0">
+</head>
+
+<body style="font-family: IRANSans;background: linear-gradient(#f8f8f8, #fcfcfc);min-width: 360px;max-width: 360px;">
+    <div class="row" style="margin: 0px;">
+        <div class="col" style="padding: 0px;">
+            <h1 style="margin: 0;margin-top: 12px;margin-right: 0;margin-bottom: 0;margin-left: 0;padding: 12px;font-size: 24px;text-align: center;font-family: IRANSans;color: rgb(55,146,192);">بررسی درگاه پرداخت فارسی</h1>
+        </div>
+    </div>
+    <div class="card" style="margin: 15px;border-width: 1px;border-style: solid;border-radius: 15px;transition-duration: 0.3s;color: rgb(55,146,192);">
+        <div class="row">
+            <div class="col">
+                <picture><img id="process-image-image" style="width: 240px;height: 240px;margin-left: 32px;border-style: none;" src="/assets/img/processing.svg?h=4530f1ff399a435c9aacc8c962690dc0"></picture>
+            </div>
+        </div>
+        <div class="card-body">
+            <h4 class="card-title" id="process-state-heading" style="text-align: center;color: rgb(34,89,116);font-size: 24px;font-family: IRANSans;font-weight: bold;">در حال بررسی...</h4>
+            <div class="row" id="gateway-information-row" style="margin-right: -15px;margin-left: -15px;margin-top: 30px;" hidden="">
+                <div class="col-5 col-md-6 offset-0" style="padding: 0px;"><img id="gateway-icon-image" src="/assets/img/sep_compressed.jpg?h=9ef7fb704fbcd29cf4ff570f6d776bec" style="max-width: 120px;padding-left: -6px;"></div>
+                <div class="col-7 col-md-6 offset-0 align-self-center" style="padding-right: 9px;padding-left: 9px;">
+                    <h6 class="text-right text-muted mb-2" id="gateway-name-heading" style="padding-right: 0px;margin-bottom: 0px;text-align: right;font-size: 15px;">درگاه متعلق به .... است.</h6><a id="gateway-phone-heading" class="phone-link">+9898797</a></div>
+            </div>
+        </div>
+    </div>
+    <div class="card" id="check-box-card" style="height: initial;margin: 15px;border-radius: 15px;transition-duration: 0.3s;border: 1px solid rgb(200,230,201);" hidden="">
+        <div class="card-body" style="padding-bottom: 0px;">
+            <h4 class="card-title" style="text-align: right;color: rgb(34,89,116);font-size: 15px;font-family: IRANSans;font-weight: bold;">مواردی که بررسی شدند:</h4>
+            <div class="row">
+                <div class="col-1 col-md-6 offset-0" style="padding: 0px;"><img id="ssl-checklist-icon-image" src="/assets/img/icons-delete.svg?h=f7ba2fa718f6771d9a919dc09e83a9e5" style="margin: 0px;padding-left: 3px;max-width: 24px;"></div>
+                <div class="col-11 col-md-6" style="padding-left: 3px;padding-right: 3px;">
+                    <h6 class="text-muted mb-2" style="text-align: right;padding-right: 12px;font-size: 15px;">بررسی ارتباط ایمن</h6>
+                    <p style="padding-right: 18px;text-align: right;font-size: 12px;">این مورد بررسی میکند که آیا سیستم شما از طریق یک اتصال ایمیل به سامانه وصل شده است یا خیر، یا به عبارت دیگر آیا گواهینامه SSL دارد یا خیر.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-1 col-md-6 offset-0" style="padding: 0px;"><img id="db-checlist-icon-image" src="/assets/img/icons-tick-box.svg?h=61429b05e6097d99041b07b7005b0101" style="margin: 0px;padding-left: 3px;max-width: 24px;"></div>
+                <div class="col-11 col-md-6" style="padding-left: 3px;padding-right: 3px;">
+                    <h6 class="text-muted mb-2" style="text-align: right;padding-right: 12px;">بررسی آدرس درگاه</h6>
+                    <p style="padding-right: 18px;text-align: right;font-size: 12px;">این مورد بررسی میکند که آیا لینک درگاه مورد نظر در پایگاه داده درگاه های پرداخت افزونه قرار دارد یا نه.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p style="font-size: 12px;text-align: center;padding: 0px 9px;color: rgb(138,140,143);">این افزونه یک پروژه متن باز است که در<a href="https://github.com/soroushamdg/persian-payment-gateway-validator"> گیت هاب</a> قرار داده شده، به این معنی که شما نیز میتوانید به بهتر شدن این افزونه کمک کنید و در آن نقش داشته باشید.<br></p>
+    <p style="font-size: 12px;direction: ltr !important;text-align: center;padding: 0px 9px;color: rgb(34,89,116);"><a href="https://github.com/soroushamdg/">@soroushamdg made it.</a></p>
+    <script src="/assets/js/jquery.min.js?h=89312d34339dcd686309fe284b3f226f"></script>
+    <script src="/assets/bootstrap/js/bootstrap.min.js?h=0168f7c1e0d08faa2f4b13f4a1dc8c98"></script>
+    <script src="assets/js/chef.js"></script>
+</body>
+
+</html>
