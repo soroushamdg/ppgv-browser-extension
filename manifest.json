@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
 
-  "name": "Persian Gateway Validator",
+  "name": "Persian Payment Gateway Validator",
   "description": "This extension will check if the payment gateway you're using is valid or not.",
   "version": "1.0",
 
