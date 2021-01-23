@@ -1,4 +1,4 @@
-![](README\header.jpg)
+![](README/header.jpg)
 
 #### Unfortunately because of problems I faced to publish this extension to Chrome Extension Web Store or Microsoft Extensions Store, I had to only publish and leave it here on Github.
 
@@ -12,7 +12,7 @@ Download release file suitable for your browser, and drag and drop downloaded fi
 
 When you're on payment page, just click on extensions icon in the tab bar, the extension will automatically validate payment gateway and show you the results. Easy.
 
-![](README\validation_states.jpg)
+![](README/validation_states.jpg)
 
 
 
