@@ -39,7 +39,7 @@ chrome.tabs.query({active: true, lastFocusedWindow: true}, function(tabs) {
 function checkssl(url){ // checks if webpage is connected through SSL.
     if (typeof(url) == "object"){
         try{
-            ssl_check = true;
+            ssl_check = url.protocol == "https:";
             return url.protocol == "https:";
         }catch{
             ssl_check = false;
@@ -106,6 +106,10 @@ function setlookindbchecklist(stat){
 
 
 function setDOM(){
+
+    console.log(ssl_check);
+    console.log(db_check);
+
 // set information on DOM
 if(ssl_check && db_check){
     setprocessstat('secure');
