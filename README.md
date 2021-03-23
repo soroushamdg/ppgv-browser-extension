@@ -24,4 +24,4 @@ Well, the project is open-source, so you can take a look at the source code. You
 
 ### Can I contribute?
 
-Sure. My first intension was to publish this extension along with being open-source project. But as I'm writing this readme file now, I'm limited by my countries sanctions, so I just published it as open-source project on GitHub. I'll really appreciate your contribution. So YES. (fingers crossed to better days 🤞)
+Sure. My first intension was to publish this extension along with being open-source project. But as I'm writing this readme file now, I'm limited by my countries sanctions, so I just published it as open-source project on GitHub. I appreciate your contribution. So YES.
